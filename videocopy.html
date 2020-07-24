@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VIDEO</title>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+  <h1 class='bienvenue'>BIENVENUE</h1>
+
+  <video class="video-player timer-player">
+    <source id="timer-video-source" src="src/videos/timer.mp4" type="video/mp4"/>
+  </video>
+
+  <video class ="video-player tronc-player">
+    <source id="tronc-video-source" src="src/videos/T1.mp4" type="video/mp4"/>
+  </video>
+
+  <video class="video-player choix-player">
+    <source id="choix-video-source" src="src/videos/A1.mp4" type="video/mp4"/>
+  </video>
+
+  <style>
+    .choix-player
+    {
+      z-index : 0;
+    }
+
+    .tronc-player
+    {
+      z-index : 1;
+    }
+
+    .timer-player
+    {
+z-index : 2;
+    } 
+
+  </style>
+
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+
+  
+</body>
+</html>

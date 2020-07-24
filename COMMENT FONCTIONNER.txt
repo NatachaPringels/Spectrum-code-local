@@ -1,0 +1,22 @@
+﻿
+----- WINDOWS -----
+
+1. télécharger node.js (logiciel)
+2. Ouvrir invite de commande
+3. Si pas sur le bon disque, écrire "D:" ou l'autre lettre du bon disque
+4. Ecrire "cd" suivi de l'emplacement du dossier 
+5. Ecrire "nodemon"
+6. Ecrire ipconfig et on cherche l’adresse IPv4 (qui commence toujours par 192.168)
+6. Aller dans le navigateur et noter "192.168.[vos nombres]:3000"
+
+→ Pour couper Nodemon, faire Ctrl+C puis écrire "o" pour oui
+
+Si ça ne fonctionne pas :
+
+- npm install -g nodemon
+- npm install --save-dev nodemon
+- Changer le port
+
+
+
+----- MAC -----
