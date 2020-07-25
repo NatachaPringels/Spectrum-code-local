@@ -1,23 +1,42 @@
 body {
     padding: 0;
     margin :0;
-    background-image: url(../img/Wall.jpg);
+    background-image: url(../src/Wall.jpg);
     background-repeat: no-repeat; 
     background-size: cover;   
-    background-color: rgb(5, 5, 5);                  /* <------ */
+    background-color: rgb(5, 5, 5);                  
 }
+
+/* -------------------- ADMIN -------------------- */
 
 .typo {
     color: #fafafa;
     font-family: "Pangolin";
-    font-size: 3vh;
-    padding-top: 15vh;
+    font-size: 2.5vh;
+    padding-top: 5vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+}
+
+.start {
+    font-family: "Pangolin";
+    font-size: 2vh;
+    color: #fafafa;
+    background-color: #2b2b2b00;
+    padding: 2vh;
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 140px;
+    cursor: pointer;
+}
+
+.start:hover {
+    color: #161616;
+    background-color: #fafafa;
 }
 
 
