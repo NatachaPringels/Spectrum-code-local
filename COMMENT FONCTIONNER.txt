@@ -17,6 +17,9 @@ Si ça ne fonctionne pas :
 - npm install --save-dev nodemon
 - Changer le port
 
+---- INSTALLER LES DÉPENDANCES (node modules) ----
 
+- npm install -g yarn
+- yarn install
 
 ----- MAC -----
