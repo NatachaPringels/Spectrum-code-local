@@ -1,7 +1,11 @@
-﻿
------ WINDOWS -----
+﻿---- INSTALLER LES DÉPENDANCES (node modules) ----
 
-1. télécharger node.js (logiciel)
+- npm install -g yarn
+- yarn install
+
+----- WINDOWS (lancer le projet) -----
+
+1. Télécharger node.js (logiciel)
 2. Ouvrir invite de commande
 3. Si pas sur le bon disque, écrire "D:" ou l'autre lettre du bon disque
 4. Ecrire "cd" suivi de l'emplacement du dossier 
@@ -17,9 +21,5 @@ Si ça ne fonctionne pas :
 - npm install --save-dev nodemon
 - Changer le port
 
----- INSTALLER LES DÉPENDANCES (node modules) ----
 
-- npm install -g yarn
-- yarn install
 
------ MAC -----
