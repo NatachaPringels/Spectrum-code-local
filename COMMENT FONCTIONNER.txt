@@ -1,7 +1,7 @@
 ﻿---- INSTALLER LES DÉPENDANCES (node modules) ----
 
-- npm install -g yarn
-- yarn install
+1. npm install -g yarn
+2. yarn install
 
 ----- WINDOWS (lancer le projet) -----
 
